@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Emoji Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h2 class="name">MALIK WALEED</h2>
+        <a href="https://github.com/MalikWaleed3" class="github">Detail</a>
+        <div class="circle"></div>
+        <img src="Emoji.png" class="emoji" />
+      </div>
+    </div>
+  </body>
+  <script src="vanilla-tilt.min.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelector(".box"), {
+      max: 25,
+      speed: 400,
+    });
+  </script>
+</html>
